@@ -1,0 +1,3 @@
+# ignore venv stuff
+pyvenv.cfg
+my-project/
