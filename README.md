@@ -1,5 +1,5 @@
 # hello, python!
-this repo is meant as a kickstart to learning python (for someone who happens to be on windows :/)
+this repo is meant as a kickstart to learning python (for someone who happens to be on windows :/ {not me})
 
 ## development environment
 
