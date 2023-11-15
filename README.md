@@ -15,7 +15,7 @@ editors are controversial in software but in my opinion, the easiest to get star
 ### virtual environments
 most things you want to do in python, someone has already written a package for. you can install these packages with `pip` like `pip install some-package-name`. but its a good idea to only have packages around that you need for the thing you're currently working on - this is where virtual environments come in.
 
-so if you're starting something new, here's what you do:
+so if you're starting something new:
 - create a directory for your project
 ```bash
 mkdir my-project # make a new directory
@@ -25,6 +25,8 @@ cd my-project # move your terminal into that directory, cd = change directory
 ```bash
 python -m venv my-project
 ```
+you can also use micromamba like me, but you'd have to install it first, see [here](
+https://mamba.readthedocs.io/en/latest/micromamba-installation.html#linux-and-macos)
 
 - activate the virtual environment
 ```bash
@@ -45,3 +47,5 @@ pip install -r requirements.txt # install the packages in the requirements.txt f
 ```bash
 deactivate
 ```
+
+## now let's learn some python!
