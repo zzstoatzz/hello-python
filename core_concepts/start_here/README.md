@@ -19,12 +19,6 @@ For a pop quiz, run the challenge script:
 python hello_challenge.py
 ```
 
-## Challenges
-- **String Reversal**: Reverse a given string.
-- **Number Multiplication**: Multiply a number by 7.
-- **List Length**: Add an item to a list and return the new length.
-- **Boolean Check**: Compare the length of a string with a number.
-
-## Instructions
+#### Instructions
 - Provide Python expressions as answers
     - e.g. what is the length of `'hello'` -> `len('hello')` not `5`
