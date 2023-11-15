@@ -3,6 +3,12 @@ this repo is meant as a kickstart to learning python (for someone who happens to
 
 ## development environment
 
+### clone this repo and cd into it
+```bash
+git clone https://github.com/zzstoatzz/hello-python.git # download this repo
+cd hello-python # change directory into the repo
+```
+
 ### install python
 here's a tutorial on installing python on windows: https://realpython.com/installing-python/#how-to-install-python-on-windows
 
@@ -19,7 +25,7 @@ so if you're starting something new:
 - create a directory for your project
 ```bash
 mkdir my-project # make a new directory
-cd my-project # move your terminal into that directory, cd = change directory
+cd my-project
 ```
 - create a virtual environment named my-project
 ```bash
