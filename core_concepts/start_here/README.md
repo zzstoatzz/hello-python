@@ -14,13 +14,5 @@ python hello_challenge.py
 - **Boolean Check**: Compare the length of a string with a number.
 
 ## Instructions
-- Provide Python expressions as answers.
-- Quotation marks are needed for string inputs.
-- Learn from feedback and retries.
-
-## Enjoy Learning Python!
-Solve challenges, improve your skills, and have fun with Python.
-
---- 
-
-This README is brief and provides clear instructions along with the exact commands to run, tailored to your repository's structure.
+- Provide Python expressions as answers
+    - e.g. what is the length of `'hello'` -> `len('hello')` not `5`
