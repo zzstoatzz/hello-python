@@ -3,3 +3,4 @@ pyvenv.cfg
 my-project/
 __pycache__/
 __pycache__/*
+.ruff_cache/
