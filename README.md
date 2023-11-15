@@ -39,16 +39,20 @@ https://mamba.readthedocs.io/en/latest/micromamba-installation.html#linux-and-ma
 source my-project/bin/activate
 ```
 
-- create a file called `requirements.txt` and add the packages you need
-```bash
-echo "httpx" > requirements.txt # httpx is a package for making http requests
+- edit your `pyproject.toml` file to include the packages you need
+```toml
+[project]
+dependencies = [
+    "httpx",
+    "pydantic",
+    "ruff",
+]
 ```
-
+the above is the current `pyproject.toml` file for this repo. it includes the packages `httpx`, `pydantic`, and `ruff` used in this repo. You shouldn't need to edit this file unless you'd like to play around with the packages used in this repo.
 - install the packages
 ```bash
-pip install -r requirements.txt # install the packages in the requirements.txt file
+pip install .
 ```
-
 - to deactivate the virtual environment, run
 ```bash
 deactivate
