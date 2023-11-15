@@ -9,8 +9,8 @@ git clone https://github.com/zzstoatzz/hello-python.git # download this repo
 cd hello-python # change directory into the repo
 ```
 
-### install python
-here's a tutorial on installing python on windows: https://realpython.com/installing-python/#how-to-install-python-on-windows
+### install python (3.10+)
+here's a tutorial on installing python on windows: https://www.digitalocean.com/community/tutorials/install-python-windows-10
 
 ### pick an editor
 editors are controversial in software but in my opinion, the easiest to get started with is [VSCode](https://code.visualstudio.com/). it's free, open source, and has a ton of extensions that make it easy to get started with python.

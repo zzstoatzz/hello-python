@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hello_python"
+version = "0.0.1"
+description = "Interactive Python challenges for teaching basic concepts"
+authors = [{name = "Nate Nowack", email = "nate@prefect.io"}]
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = ["python", "education", "teaching", "interactive"]
+urls = { "Home" = "http://github.com/zzstoatzz/hello-python" }
+dependencies = [
+    "httpx",
+    "pydantic",
+    "ruff",
+]
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Education",
+    "Topic :: Education",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.ruff]
+extend-select = ["I"]
+
+[tool.ruff.per-file-ignores]
+"__init__.py" = ['I', 'F401', 'E402']
+"conftest.py" = ["F401", "F403"]
+'tests/fixtures/*.py' = ['F403']
