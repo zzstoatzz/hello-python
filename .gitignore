@@ -1,3 +1,5 @@
 # ignore venv stuff
 pyvenv.cfg
 my-project/
+__pycache__/
+__pycache__/*
